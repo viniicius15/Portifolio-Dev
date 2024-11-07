@@ -1,0 +1,93 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cabecalho{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cabecalho a{
+    color: white;
+    font-size: 12px;
+}
+.cabecalho a:hover{
+    color: aqua;
+    transition: 0.3s all;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid aqua;
+    color: aqua;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+button{
+    color: aqua;
+    background: transparent;
+    border: solid 1px aqua;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+
+
+.background_projetos {
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
+    background-image: url(fundo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 130vh;
+}
+
+#h12{
+    margin-left: 680px;
+    margin-bottom: 12px;
+}
+
+#h23{
+    margin-left: 570px;
+}
+
+
+.part1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 280px;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+#coluna{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #202024;
+    border-color: #202024;
+    padding-bottom: 10px;
+}
+
+h4{
+    color: #ffff;
+}

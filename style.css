@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0,0,0, 0.5),(rgba(0,0,0, 0.5)));
+    background-image: url(fundo2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cabecalho{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cabecalho a{
+    color: white;
+    font-size: 12px;
+}
+.cabecalho a:hover{
+    color: aqua;
+    transition: 0.3s all;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid aqua;
+    color: aqua;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+button{
+    color: aqua;
+    background: transparent;
+    border: solid 1px aqua;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.container-text{
+    padding: 150px 0 0 130px;
+}
+.text h3{
+    color: white;
+    font-size: 15px;
+}
+.text h1{
+    color: white;
+    margin-top: 10px;
+}
+span{
+    color: aqua;
+}
+.text p{
+    color: white;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.redes{
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+}
+#bt{
+    margin-top: 10px;
+}
+.container-text2{
+    height: 200vh;
+    margin-top: 220px;
+    width: 1000px;
+    margin-left: 250px;
+}
+.text2 p{
+    color: white;
+    font-size: 15px;
+    font-weight: 150;
+    margin-top: 10px;
+    border: color solid black 2px;
+}
+.especialidades{
+    justify-items: space-around;
+    padding-top: 100px;
+    display: inline-flex;
+    color: white;
+    font-size: 200px    
+}
+.html{
+    padding-right: 90px;
+    padding-left: 250px ;
+    color: orangered;
+}
+.css{
+    padding-right: 220px;
+    color: blue;
+}
+.java{
+    padding-right: 250px;
+    color: yellow;
+}
+.texto{
+    display: flex;
+    color: white;
+}
+#thtml{
+    width: 470px;
+    padding-left: 200px;
+}
+#tcss{
+    width: 470px;
+    padding-left: 90px;
+}
+#tjava{
+    width: 470px;
+    padding-left: 70px;
+    padding-right: 110px;
+}
+a{
+    color: aqua;
+}
